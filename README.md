@@ -22,4 +22,6 @@ sudo apt install device-tree-compiler
 dtc -@ -I dts -O dtb -o st7796_320_480.dtbo st7796_320_480.dtso
 ```
 
-
+## you may also be interested in the following projects
+* https://github.com/igorkll/syslbuild
+* https://github.com/igorkll/orangepi-zero3-st7735-devicetree-overlay
