@@ -1,5 +1,9 @@
 # panel-mipi-dbi-firmwares-and-overlays
 firmware and device tree overlays for different displays for the panel-mipi-dbi driver  
+The firmware files should go to the /lib/firmware directory  
+if the "panel-mipi-dbi" kernel module is loaded at the initramfs stage, then the firmware should also be in initramfs  
+adding device tree overlays depends on the build system and/or distribution you are using  
+please note that the "panel-mipi-dbi" module may not load itself via udev if there is an overlay, and it may need to be added to the startup forcibly  
 
 ## "panel-mipi-dbi" firmware compiler
 ### install
