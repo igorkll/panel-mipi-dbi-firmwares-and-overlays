@@ -18,8 +18,8 @@ command 0x38
 # --- Invert ON ---
 command 0x21
 
-# --- Rotation 180: flip X + flip Y + BGR ---
-command 0x36 0xC8
+# --- Rotation 180 (только flip Y) ---
+command 0x36 0x88
 
 # --- Enable ---
 command 0x11
@@ -28,7 +28,7 @@ command 0x38
 command 0x29
 
 # --- Rotation 180 again ---
-command 0x36 0xC8
+command 0x36 0x88
 
 # --- Select all (320x480) ---
 command 0x2A 0x00 0x00 0x01 0xDF
